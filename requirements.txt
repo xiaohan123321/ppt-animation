@@ -1,0 +1,6 @@
+python-pptx>=1.0
+numpy>=1.26
+Pillow>=10.0
+lxml>=5.0
+# 预览渲染（可选）：render_deck.py / render_gif.py 需要
+pymupdf>=1.24

@@ -1,0 +1,58 @@
+{
+ "1": {
+  "transition": "cut",
+  "transition_spd": "med",
+  "transition_ms": 0,
+  "auto_start": true,
+  "plan": [
+   ["3", "zoom_soft", 1100, 0, {"ease": "out"}],
+   ["4", "fade", 900, 120, {"ease": "out"}],
+   ["5", "turn", 1200, 200, {"ease": "out"}],
+   ["7", "fade", 600, 500, {"ease": "out"}],
+   ["6", "cinematic", 1000, 620, {"ease": "out"}],
+   ["8", "wipe_r", 500, 900, {"ease": "out"}]
+  ]
+ },
+ "2": {
+  "transition": "push_l",
+  "transition_spd": "med",
+  "transition_ms": 700,
+  "auto_start": true,
+  "plan": [
+   ["3", "zoom_soft", 1000, 120, {"ease": "out"}],
+   ["4", "fade", 800, 220, {"ease": "out"}],
+   ["5", "turn", 1100, 300, {"ease": "out"}],
+   ["6", "cinematic", 800, 480, {"ease": "out"}],
+   ["7", "wipe_r", 450, 700, {"ease": "out"}],
+   ["8", "fade", 600, 820, {"ease": "out"}],
+   ["9", "fade", 600, 900, {"ease": "out"}],
+   ["10", "fade", 600, 980, {"ease": "out"}]
+  ]
+ },
+ "3": {
+  "transition": "fade",
+  "transition_spd": "slow",
+  "transition_ms": 900,
+  "auto_start": true,
+  "plan": [
+   ["3", "zoom_soft", 1000, 120, {"ease": "out"}],
+   ["4", "fade", 800, 220, {"ease": "out"}],
+   ["5", "turn", 1100, 300, {"ease": "out"}],
+   ["6", "cinematic", 800, 480, {"ease": "out"}],
+   ["7", "wipe_r", 450, 700, {"ease": "out"}],
+   ["8", "fade", 700, 820, {"ease": "out"}]
+  ]
+ },
+ "4": {
+  "transition": "circle",
+  "transition_spd": "slow",
+  "transition_ms": 1100,
+  "auto_start": true,
+  "plan": [
+   ["3", "zoom_soft", 1400, 100, {"ease": "out"}],
+   ["4", "fade", 1000, 200, {"ease": "out"}],
+   ["5", "cinematic", 900, 500, {"ease": "out"}],
+   ["6", "fade", 700, 750, {"ease": "out"}]
+  ]
+ }
+}
