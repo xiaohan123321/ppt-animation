@@ -84,4 +84,4 @@ python scripts/apply_anim.py 已有.pptx 已有_动效版.pptx plans.json
 
 ## 📄 License
 
-[MIT](LICENSE) © papersentinel
+[MIT](LICENSE) © xiaohan123321
