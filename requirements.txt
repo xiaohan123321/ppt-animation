@@ -2,5 +2,7 @@ python-pptx>=1.0
 numpy>=1.26
 Pillow>=10.0
 lxml>=5.0
-# 预览渲染（可选）：render_deck.py / render_gif.py 需要
-pymupdf>=1.24
+
+# 预览渲染（可选）：仅 render_deck.py / render_gif.py 本地预览用。
+# 注意 pymupdf 为 AGPL-3.0 许可，与本仓库 MIT 不同——不要随闭源软件一起分发。
+# pymupdf>=1.24

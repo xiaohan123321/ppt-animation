@@ -82,6 +82,13 @@ python scripts/apply_anim.py 已有.pptx 已有_动效版.pptx plans.json
 3. **plan.json 是唯一真相**——pptx 里的每个 spid 都是生成时记录的真实 id
 4. **内容比图形早 60ms 起**——窗口还在滑，第一行字已经淡入
 
+## ⚠️ 背景图版权须知
+
+`fetch_bg.py` 默认从 **Bing 每日壁纸**抓取实拍照片——这些图片版权归微软及原摄影师所有，
+授权范围通常仅限桌面壁纸。生成内容若要**公开发布或商用**，请自行替换为可商用的图源
+（如 Openverse/Wikimedia CC 图库，脚本已内置这两个兜底源），或使用你自有版权的照片。
+仓库本身**不包含、也不分发**任何壁纸图片。
+
 ## 📄 License
 
 [MIT](LICENSE) © xiaohan123321
